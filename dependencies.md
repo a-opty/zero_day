@@ -41,6 +41,9 @@ set expandtab
 set smartindent
 syntax enable
 "set number
+
+***
+
 ## install gcc
 ```
 sudo apt install gcc
@@ -78,6 +81,9 @@ done
  - Once saved, exit file and change permissions to apply to all users with chmod a+x betty
  - Move the betty file into /bin/ directory or somewhere else in your $PATH with sudo mv betty /bin/
 ### You can now type betty <filename> to run the Betty linter!
+
+***
+
 ## Install PEP8
 Pycodestyle is now the new standard of Python style code, but at school we will use PEP8, version 1.7.(..) Don’t worry, pycodestyle is based on pep8. The hardest part now is to install it for Python 3:
 
@@ -148,3 +154,6 @@ LINK: https://stackoverflow.com/questions/3655306/ubuntu-usr-bin-env-python-no-s
 ```
 sudo apt-get install pep8
 ```
+
+***
+
