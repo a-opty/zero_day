@@ -28,6 +28,7 @@ git push origin master
 ## Permanently authenticating with Git repositories
 ```
 git config credential.helper store
+git config --global credential.helper 'cache --timeout 7200'
 ```
 link: https://stackoverflow.com/questions/8588768/how-do-i-avoid-the-specification-of-the-username-and-password-at-every-git-push
 ## configure your vim editor
