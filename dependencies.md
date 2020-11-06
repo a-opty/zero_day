@@ -157,4 +157,17 @@ sudo apt-get install pep8
 ```
 
 ***
+## Install and use MySQL 5.7 on Ubuntu 14.04 LTS
+```
+echo 'deb http://repo.mysql.com/apt/ubuntu/ trusty mysql-5.7-dmr' | sudo tee -a /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get install mysql-server-5.7
 
+mysql --version
+mysql -hlocalhost -uroot -p
+cat script.sql | mysql -uroot -p my_database
+```
+if it doesn't work, fllow these links:
+- https://tecadmin.net/install-mysql-on-ubuntu-18-04-bionic/
+- https://www.fosstechnix.com/how-to-install-mysql-5-7-on-ubuntu-20-04-lts/
+- https://askubuntu.com/questions/1232558/install-mysql-5-7-on-ubuntu-20-04
