@@ -167,7 +167,11 @@ mysql --version
 mysql -hlocalhost -uroot -p
 cat script.sql | mysql -uroot -p my_database
 ```
-if it doesn't work, fllow these links:
+if it doesn't work, follow these links:
 - https://tecadmin.net/install-mysql-on-ubuntu-18-04-bionic/
 - https://www.fosstechnix.com/how-to-install-mysql-5-7-on-ubuntu-20-04-lts/
 - https://askubuntu.com/questions/1232558/install-mysql-5-7-on-ubuntu-20-04
+## Use the module mysql-connector-python to connect to the MySQL database
+```
+sudo pip3 install mysql-connector-python
+```
