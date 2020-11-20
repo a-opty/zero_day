@@ -175,3 +175,35 @@ if it doesn't work, follow these links:
 ```
 sudo pip3 install mysql-connector-python
 ```
+# Install MySQLdb module version 1.3.x
+```
+sudo apt-get install python3-dev
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install zlib1g-dev
+sudo pip3 install mysqlclient==1.3.10
+```
+# Install SQLAlchemy module version 1.2.x
+```
+pip3 install SQLAlchemy==1.2.5
+```
+
+# Install bcrypt
+```
+pip3 install bcrypt
+```
+# Install Node 10
+```
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
+# Install semi-standard
+```
+sudo npm install semistandard --global
+```
+
+#Install request module and use it
+```
+sudo npm install request --global
+export NODE_PATH=/usr/lib/node_modules
+```
